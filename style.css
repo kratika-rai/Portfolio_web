@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    /* background-color: #bdacbc; */
+    /* background-color: #4a6481; */
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    /* color: #cdced1; */
+}
+
+  /*NAV BAR SECTION */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2e3d;
+    /* background-color: #916c86; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #cce7ff;
+}
+nav ul li a:hover{
+    color: #3357b3;
+    font-size: 1.02rem;
+}
+
+.left{
+    color: #cce7ff;
+    font-size: 1.5rem;
+}
+.right{
+    font-size: 1.1rem;
+}
+
+
+/* first section */
+
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+    
+    
+}
+.first-section div{
+    width:700px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.left-section{
+    margin-left: 200px;
+    width: 800px;
+    margin-top: 500px;
+    /* border: 2px solid white; */
+    
+    
+}
+.right-section{
+    /* border: 2px solid white; */
+    
+    height: 400px;
+    margin-right: 210px;
+    font-size: 1.5rem;
+    justify-content: left;
+    align-items: center;
+
+    
+}
+.right-section p{
+    font-size: 2.7rem;
+    margin: 20px;
+    
+}
+/* .left-section img{
+    
+    border: solid 3px #6877a3 ;
+    width: 25rem;
+    /* background-color: #1f2e3d; */
+    /* width: 500px; 
+    background-color: #4a6481;
+    border-radius: 350%;
+    filter: drop-shadow(0 0 8rem #000);
+    
+} */
+
+.left-section img {
+    border: solid 3px #6877a3;
+    width: 25rem;
+    background-color: #4a6481;
+    border-radius: 50%;
+    
+    /* Soft blue glow effect */
+    box-shadow: 0px 0px 15px #415A77, /* Subtle steel blue glow */
+                0px 0px 30px #1B263B, /* Deep blue outer shadow */
+                0px 0px 50px #0D1B2A; /* Background blending shadow */
+    
+    /* Optional drop-shadow for more depth */
+    filter: drop-shadow(0px 0px 20px #2C3E50);
+}
+
+#hi {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #E0E1DD; /* Soft White */
+}
+#element {
+    font-size: 3.7rem;
+    margin: 20px;
+    font-weight: bold;
+    color: #00E5FF; /* Bright Cyan */
+    -webkit-text-stroke: 2px #003B46; /* Dark blue outline */
+    -webkit-text-fill-color: #00E5FF; /* Vibrant Neon Cyan */
+    text-shadow: 3px 3px 7px rgba(0, 229, 250, 0.7); /* Glowing effect */
+}
+
+/* #element{
+    color: #2b425f;
+    font-size: 3.7rem;
+    margin: 20px;
+    font-weight: bold;
+  color: white; /* Text color 
+  -webkit-text-stroke: 2px rgb(48, 42, 90);  
+  -webkit-text-fill-color: #314864;  
+} */
+#me {
+    color: #A3C4F3; /* Light Sky Blue */
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(163, 196, 243, 0.5);
+}
+
+
+#content{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.buttons{
+    align-content: center;
+}
+.btn{
+    margin: 20px;
+    padding: 4px;
+    background-color: rgb(187, 188, 200);
+    color: #09122C;
+    text-decoration:  solid;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+
+/*Second Section */
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #4d5d75;
+    margin: 150px 50px;
+    box-shadow: 0 4px 6px rgba(14, 11, 11, 0.2); /* Added shadow effect */
+}
+
+
+
+.about {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 120px;
+    color: #A3C4F3; /* Light Sky Blue */
+    
+}
+
+
+.education{
+    margin: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.head{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+
+.box{
+    height: 100px;
+    width: 600px;
+    margin: 20px 0;
+    /* background-color: #84909f; */
+    background-color: #95b5cf;
+    border: 2px solid rgb(25, 23, 31);
+    border-radius: 5px;
+    background-color: #1B263B;
+    color: #E0E1DD;
+    border: 2px solid #415A77;
+    padding: 5px;
+}
+.box2{
+    padding: 10px;
+}
+
+.year{
+    display: flex;
+    
+}
+.year p{
+    margin: 10px 15px;
+}
+.cal-icon{
+    margin: 10px 0px;
+}
+
+#school{
+    font-size: 1.2rem;
+    
+    /* color: #E0E1DD; */
+    
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.resp{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.resp1{
+    font-weight: 600;
+    
+    color: #A7E0E6;
+}
+.box2{
+    height: 150px;
+}
+
+#skill-head{
+    text-align: center;
+    color: #A3C4F3;
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.skills{
+    
+    margin: 10px 100px;
+    display: flex;
+    height: 500px;
+    width: 86%;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.s-box {
+    height: 22rem;
+    width: 30%;
+    background-color: #1B263B; /* Dark Blue Background */
+    margin: 10px 20px;
+    border: 2px solid #415A77; /* Steel Blue Border */
+    border-radius: 20px;
+    color: #E0E1DD; /* Light Text for Contrast */
+}
+
+/* .s-box{
+    
+    height: 340px;
+    width: 30%;
+    background-color: #84909f;
+    margin: 10px 20px;
+    border: 2px solid rgb(6, 6, 74);
+    border-radius: 20px;
+} */
+
+.s1{
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+
+}
+
+.s1 p{
+    color: #A3C4F3;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: 700;
+}
+.ic-style{
+    color: #A3C4F3;
+    padding: 3px;
+    margin: 10px 10px;
+    font-size: 1.8rem;
+    
+}
+
+.s-items ul{
+    list-style: none;
+}
+.s-items ul li{
+    font-size: 1.5rem;
+    margin: 15px 45px;
+
+}
+
+
+/* third section */
+
+.photo img{
+    width: 350px;
+    height: 150px;
+    margin: 18px 29px;
+    
+    border-radius: 20px;
+}
+
+#proj-nm{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+button{
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    margin: 20px 120px;
+    width: 10%;
+    border-radius: 15px;
+    height: 43px;
+    background-color: bisque;
+    font-size: 0.5;
+}
+.butt{
+    align-items: center;
+    justify-content: center;
+}
+
+/* last section */
+
+section.contact {
+    padding: 50px 20px;
+    /* background-color: #e6f7ff; Slightly darker blue */
+    text-align: center;
+}
+
+section.contact .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0073e6; /* Main blue */
+}
+
+/* section.contact .title span {
+    color: #224b74; /* Slightly darker blue 
+} */
+section.contact .title span {
+    
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(255, 221, 87, 0.8); /* Stronger glow effect */
+    background: linear-gradient(120deg, rgba(255, 221, 87, 0.3), rgba(255, 255, 255, 0.1)); /* Subtle highlight */
+    padding: 3px 8px;
+    border-radius: 5px;
+    
+}
+
+section.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #5C80BC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(60, 67, 133, 0.053);
+}
+
+section.contact .input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 10px;
+    
+}
+
+section.contact .input-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #547ea8;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #c0cfdd;
+}
+
+section.contact textarea {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #0073e6;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    background-color: #c0cfdd;
+}
+
+section.contact .btn {
+    background-color: #0073e6;
+    color: #e7d4d4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section.contact .btn:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f344a;
+    color: #fff;
+}
+
+footer .text p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #cce7ff;
+}
+
+
+
+
+
+.contact-section {
+    max-width: 500px; /* Increased max width for larger view */
+    margin: 50px auto;
+    padding: 40px; /* Increased padding for spacious layout */
+    background: #95b5cf; /* Light greyish-blue background */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    text-align: center;
+    border: 1px solid #d1e7f0; /* Light blue border */
+    margin-top: 400px;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px; /* Increased margin for spacing */
+    color: #072541; /* Deep blue color */
+    font-size: 50px; /* Larger font size */
+    font-size: 3rem;
+    font-weight: bold; /* Emphasize the title */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* More spacing between items */
+}
+
+.contact-item img {
+    width: 30px; /* Larger icons */
+    height: 30px;
+    margin-right: 15px; /* Spaced from text */
+}
+
+.contact-item a {
+    color: #0073b1; /* LinkedIn blue */
+    text-decoration: none;
+    font-size: 18px; /* Larger text for better readability */
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-item a:hover {
+    color: #005582; /* Darker blue on hover */
+}
+
+/* Additional styling for responsive design */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    .contact-section h2 {
+        font-size: 24px; /* Slightly smaller title */
+    }
+
+    .contact-item a {
+        font-size: 16px; /* Slightly smaller text */
+    }
+}
